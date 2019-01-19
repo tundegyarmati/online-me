@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+.profile-card {
+  width: 300px;
+  max-width: calc(100vw - 10px);
+}
+body {
+  height:127vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background: url('http://3.bp.blogspot.com/-1q2tnRPlIrg/T4VGSBiuwBI/AAAAAAAAVJI/WuFd1GcHL_k/s1600/w039.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+.head, .links {
+  text-align: center;
+}
+.head, .content {
+  width: 100%;
+  margin: 0 auto;
+}
+img {
+  width: 140px;
+  height: 140px;
+  border-radius: 1000%;
+}
+.profile-image {
+  margin-top: -60px;
+  
+}
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+.head, .about {
+  margin-bottom: 10%;
+}
+
+.content {
+  padding: 10% 10%;
+}
+
+img {
+  padding: 1px;
+  background-color: rgba(137, 199, 106, 0.3);
+  filter: opacity(85%);
+}
+.content {
+  border-top: 1px solid hsla(0, 0%, 50%, .9);
+}
+img:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+  filter: opacity(30%);
+  }
+h1 {
+  font-size:30px;
+  color:black;
+  font-family:"Arial";
+}
+h2 {
+  font-size:18px;
+  font-family:"Arial";
+  color: black;
+}
+p {
+  font-size:15px;
+  color: black;
+  font-family:"Raleway";
+  text-align: center;
+  
+}
+a {
+  color: rgba(137, 199, 106, 0.7);
+}
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  div#right-menu {
+    display: none;
+  }
